@@ -14,7 +14,7 @@ jobs:
         with:
           dotnet-version: 8.0.x
       - name: Restore dependencies
-        run: dotnet restore MyApp MyApp.Test
+        run: dotnet restore MyApp
       - name: Build
         run: dotnet build MyApp MyApp.Test --no-restore
       - name: Test
