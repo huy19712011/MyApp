@@ -16,6 +16,6 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore MyApp
       - name: Build
-        run: dotnet build MyApp MyApp.Test --no-restore
+        run: dotnet build MyApp --no-restore
       - name: Test
-        run: dotnet test MyApp.Test --no-build
+        run: dotnet test MyApp.Test
