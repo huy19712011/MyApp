@@ -23,8 +23,8 @@ namespace MyApp.Test
             const string testName = "FPoly";
             Greeter greeter = new Greeter();
 
-            //StringAssert.Contains(greeter.Greet(testName), testName);
-            StringAssert.Contains(greeter.Greet(testName), "FFF");
+            StringAssert.Contains(greeter.Greet(testName), testName);
+            //StringAssert.Contains(greeter.Greet(testName), "FFF");
         }
 
         /// <summary>
