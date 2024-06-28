@@ -35,7 +35,7 @@ namespace MyApp.Test
         public void TestGreetNull()
         {
             Greeter greeter = new Greeter();
-            greeter.Greet(null);
+            greeter.Greet(null!);
         }
 
         /// <summary>
